@@ -1,0 +1,52 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain) */
+
+*{
+    box-sizing: border-box;
+}
+
+.awwesome{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 100%;
+}
+
+.container-awesome{
+    width: 1400px;
+    border: 1px solid black;
+    margin: 0% auto;
+}
+
+.title{
+font-size: 36px;
+margin-top: 108px;
+margin-bottom: 30px;
+text-align: center;
+line-height: 26px;
+text-transform: uppercase;
+color: #212121;
+font-family: "Raleway";
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+}
+
+.underline{
+    border-bottom: 2px solid #ff8b38;
+    width: 64px;
+    margin: auto;
+}
+
+.title-subtext{
+    width: 359px;
+    height: 14px;
+    color: #86878b;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
