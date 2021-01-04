@@ -59,6 +59,7 @@ letter-spacing: normal;
 	justify-content: center;
 	border: 1px;
 	margin: 0 -15px;
+	margin-bottom: 80px;
 }
 
 .awesome-card__item{
@@ -93,23 +94,27 @@ margin: 0 15px;
 
 .awesome-card__text:{
 	color: #86878b;
-  font-family: "Open Sans";
+  font-family: Open Sans;
   font-size: 14px;
-  font-weight: 400;
+	font-weight: 400;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 20px;
-  text-align: center;
+	line-height: 20px;
+	text-align: center;
+}
+
+.pricing-wraper{
+	background-color: #f5f5f5;
 }
 
 .pricing{
-	max-width: 1170px;
+	width: 100%;
 	margin: 0px auto;
 }
 
 .pricing-title{
 font-size: 36px;
-margin-top: 108px;
+padding-top: 100px;
 margin-bottom: 30px;
 text-align: center;
 line-height: 26px;
@@ -149,11 +154,11 @@ letter-spacing: normal;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: 0 -15px;
+	padding-bottom: 80px;
 }
 
 .pricing-bloc-item{
 		max-width: 360px;
-		border: 1px solid rebeccapurple;
 		display: flex;
 	  flex-wrap: wrap;
 		flex-direction: column;
@@ -164,7 +169,6 @@ letter-spacing: normal;
 
 .pricing-bloc-item__item1{
 	width: 343px;
-	height: 59px;
 	color: #ffffff;
 	font-family: "Open Sans";
   font-size: 20px;
@@ -178,7 +182,6 @@ letter-spacing: normal;
 
 .pricing-bloc-item__item2{
 	width: 343px;
-	height: 100px;
   color: #ffffff;
   font-family: Raleway;
   font-size: 64px;
@@ -287,14 +290,13 @@ letter-spacing: normal;
 		flex-wrap: wrap;
 		justify-content: center;
 		margin: 0 -70px;
-		border: 1px solid #356565
+		padding-bottom: 80px;
 	}
 
 	.comments-item{
 	  width: 273px;
     border: 1px;
 	  margin: 0 70px;
-	  border: 1px solid black;
 	}
 
 	.comments-text {
@@ -303,7 +305,7 @@ letter-spacing: normal;
 		background-color: #f5f5f5;
 	}
 
-	.text-avtor {
+	.text-author {
 		padding: 24px 13px 41px 12px;
 		text-align: left;
 		color: #86878b;
@@ -312,7 +314,7 @@ letter-spacing: normal;
     font-weight: 400;
 	}
 
-	.text-avtor::after{
+	.text-author::after{
 		content: '';
     position: absolute;
     /* Абсолютное позиционирование */
@@ -325,7 +327,7 @@ letter-spacing: normal;
     /* Добавляем треугольник */
 	}
 	
-	.aunor-card__img {
+	.author-card__img {
 		margin-top: 15px;
 		display: flex;
 		flex-wrap: wrap;
@@ -369,12 +371,11 @@ letter-spacing: normal;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
+		
 	}
 
 	.axure-block {
-		background-color: rgba(0, 0, 0, 0.8);
 		width: 100%;
-		margin-top: 100px;
 		text-align: center;
 	}
 
@@ -401,9 +402,11 @@ letter-spacing: normal;
 		margin-top: 15px;
 	}
 	.axure-subtitle {
+		font-family: Raleway;
 		color: #ffffff;
-    font-family: Raleway;
-    font-size: 16px;
+		font-size: 16px;
+		line-height: 1.2;
+		opacity: 0.8;
 		font-weight: 300;
 		margin-top: 30px;
 		text-align: center;
@@ -431,5 +434,55 @@ letter-spacing: normal;
 
 	.axure_button:active{
 		background-color: rgba(255, 255, 255, 0.7);
+	}
+
+	.contact {
+		width: 100%;
+		text-align: center;
+	}
+	
+	.contact-wraper {
+	}
+
+	.contact-title {
+		font-size: 36px;
+		font-weight: 400;
+		padding-top: 74px;
+	  text-align: center;
+		line-height: 74px;
+	  text-transform: uppercase;
+	  color: #212121;
+	  font-family: "Raleway";
+	  font-style: normal;
+	  letter-spacing: normal;
+	}
+
+	.contact-title::after{
+		display: block;
+		border-bottom: 2px solid #ff8b38;
+		width: 64px;
+		content: ' ';
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30px;
+	}
+
+	.contact-subtitle {
+		color: #86878b;
+		font-family: "OpenSans";
+		margin-top: 30px;
+		margin-bottom: 80px;
+		line-height: 14px;
+		font-weight: 400;
+		text-align: center;
+		font-style: normal;
+		letter-spacing: normal;
+	}
+
+	form {
+		max-width: 500px;
+		margin: 50px auto;
+		padding: 16px;
+		border: 1px solid #eaeaea;
 	}
 	
