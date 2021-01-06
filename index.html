@@ -162,19 +162,64 @@
 								<div class="contact-subtitle">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 							</div>
-							<form action="#" method="post">
-								<label for="name">Name</label>
-								<input type="text" value="" required placeholder="Введите имя" id="name" required name="student_name">
-					
-								<label for="mail">Email</label>
-								<input type="email" id="mail" name="student_email">
-					
-								<label for="password">Password</label>
-								<input type="password" id="password" name="student_password">
-					    </div>
+							<form action="#" method="post" class="contact-form">
+                <div class="formblock">
+                <ul class="contact-list">
+									<li class="contact-list_item">
+										<textarea class="contact-textarea" type="text" id="name" name="User_name" placeholder="Name"></textarea>
+									</li>
+									<li class="contact-list_item">
+										<textarea class="contact-textarea" type="text" id="mail" name="User_mail" placeholder="E-mail"></textarea>
+									</li>
+									<li class="contact-list_item">
+										<textarea class="contact-textarea" type="text" id="subject" name="User_subject" placeholder="Subject"></textarea>
+									</li>
+								</ul>
+								<div class="message">
+									<textarea class="contact-textarea" name="Message" id="Message" cols="30" rows="10" placeholder="Message"></textarea>
+								</div>
+							</div>
+							<button class="contact__btn" type="submit">Send Message</button>
+						</form>
+						  </div>
 						</div>
 					</section>
-				
+				<footer class="footer">
+					<div class="container">
+						<div class="footer-wrapper">
+							<div class="footer-content">
+								<div class="footer__list">
+									<ul class="footer__social">
+										<li class="footer__social-element">
+											<a href="#" class="inst"><i class="fab fa-facebook-f"></i></a>
+										</li>
+										<li class="footer__social-element">
+											<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+										</li>
+										<li class="footer__social-element">
+											<a href="#" class="google"><i class="fab fa-google-plus-g"></i></a>
+										</li>
+										<li class="footer__social-element">
+											<a href="#" class="pint"><i class="fab fa-pinterest"></i></a>
+										</li>
+										<li class="footer__social-element">
+											<a href="#" class="inst"><i class="fab fa-instagram"></i></a>
+										</li>
+										<li class="footer__social-element">
+											<a href="#" class="wave"><i class="fab fa-stumbleupon"></i></a>
+										</li>
+										<li class="footer__social-element">
+											<a href="#" class="wifi"><i class="fab fa-wifi"></i></a>
+										</li>
+									</ul>
+								</div>
+								<div class="footer-copyright">
+									<p class="footer__text">@ 2015 Axure Themes</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
 </body>
 
 </html>
